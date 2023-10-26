@@ -392,12 +392,12 @@ void displayVoltage(){
   display.display();
 }
 ///// ตั้งค่า IFTTT
-String event = "MetaGenius"; // ชื่อ event
+String event = "TGorgeorius"; // ชื่อ event
 String key = "R3A6wHgSp7McWiqkKUQIk"; // Key
-String sheets = "";
+String sheets = "Urloopter";
 
 String server = "http://maker.ifttt.com";
-String eventName = "MetaGenius";
+String eventName = "TGorgeorius";
 String IFTTT_Key = "R3A6wHgSp7McWiqkKUQIk";
 String IFTTTUrl="http://maker.ifttt.com/trigger/temp_data/with/key/R3A6wHgSp7McWiqkKUQIk";
 void setup()
@@ -422,7 +422,7 @@ void setup()
   pinMode(relay5, OUTPUT); 
   Blynk.config(auth);
   display.display();
-  delay(2000);
+  delay(1500);
 
     // The ADC input range (or gain) can be changed via the following
   // functions, but be careful never to exceed VDD +0.3V max, or to
